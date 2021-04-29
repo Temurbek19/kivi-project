@@ -21,7 +21,7 @@ const Navbar = () => {
                 <span><img src={Back} alt=""/></span>
                 <div className=""><img src={Avtomobil} alt=""/></div>
                 <div className=""><img src={Nedvi} alt=""/></div>
-                <Link to="/navbar" to="/navbar" className=""><img src={Elektronika} alt=""/></Link>
+                <Link to="/navbar" className=""><img src={Elektronika} alt=""/></Link>
                 <div className=""><img src={Rabota} alt=""/></div>
                 <div className=""><img src={Lichniye} alt=""/></div>
                 <div className=""><img src={Domisad} alt=""/></div>
