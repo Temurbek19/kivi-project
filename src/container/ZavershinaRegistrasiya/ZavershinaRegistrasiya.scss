@@ -1,0 +1,128 @@
+.zavershina_registrasiya {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+        width: 320px;
+        margin-left: 200px;
+        text-align: start;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 22px;
+            width: 390px;
+        }
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 23px;
+            color: #304FFF;
+            width: 335px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        label {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #787993;
+            display: block;
+            width: 100%;
+            margin-bottom: 7px;
+        }
+        input {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 23px;
+            color: #C7C7C7;
+            background: #FFFFFF;
+            border: 1px solid rgba(151, 151, 151, 0.482592);
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 100%;
+            display: block;
+            margin-bottom: 24px;
+            outline: none;
+            padding: 20px 25px;
+            box-sizing: border-box;
+        }
+        .voyti {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #FFFFFF;
+            background: #41D481;
+            border-radius: 5px;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            display: block;
+            margin-bottom: 50px;
+            box-sizing: border-box;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #787993;
+            width: 100%;
+            text-align: center;
+            display: block;
+            position: relative;
+            margin-bottom: 23px;
+            &::before {
+                content: "";
+                width: 120px;
+                height: 1px;
+                background: #979797;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+            }
+            &::after {
+                content: "";
+                width: 120px;
+                height: 1px;
+                background: #979797;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+        h6 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E72CA;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

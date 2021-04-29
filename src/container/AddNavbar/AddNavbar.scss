@@ -1,0 +1,125 @@
+.add_navbar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    &_top {
+        width: 100%;
+        margin: 0 auto;
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        h5 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 40px;
+        }
+    }
+    .navbar_top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            img {
+                cursor: pointer;
+            }
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    &_block {
+        display: flex;
+        background: #FFFFFF;
+        width: 70%;
+        padding: 35px;
+        // position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin: 0 auto;
+        box-shadow: 12px 12px 64px rgba(0, 0, 0, 0.0633775);
+        &.nedvi {
+            display: none;
+            &.opened {
+                display: flex;
+            }
+        }
+        &_item {
+            &.nedvijimost {
+                display: none;
+                &.doma {
+                    margin-left: 60px;
+                    display: block;
+                }
+            }
+            &.arenda {
+                display: none;
+                margin-left: 60px;
+                &.doma {
+                    display: block;
+                }
+            }
+            h2 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+            .rubrika {
+                padding-left: 15px;
+                position: relative;
+                padding-right: 50px;
+                border-right: 1px solid #DADADA;
+                &.rubrika3 {
+                    padding-right: 0;
+                    border-right: 0;
+                }
+                .arrow-next {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: -8px;
+                    margin: auto;
+                }
+                &-title {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    text-decoration: none;
+                    &.active {
+                        span {
+                            color: #3BAD6D;
+                        }
+                    }
+                    span {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 36px;
+                        color: #000000;
+                    }
+                    img {
+                        display: block;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

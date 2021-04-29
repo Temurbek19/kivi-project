@@ -1,0 +1,164 @@
+.free_registrasiya_kod {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    .left {
+        width: 320px;
+        box-sizing: border-box;
+        margin-left: 200px;
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 23px;
+            width: 100%;
+        }
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #787993;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+        .free-kod {
+            width: 100%;
+            box-sizing: border-box;
+            label {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #787993;
+                width: 100%;
+                margin-bottom: 7px;
+            }
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                input {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #414D6A;
+                    padding: 20px 25px;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(151, 151, 151, 0.482592);
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    outline: none;
+                    width: 230px;
+                    box-sizing: border-box;
+                    &::placeholder {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 19px;
+                        line-height: 23px;
+                        color: #414D6A;
+                    }
+                }
+                span {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #414D6A;
+                    padding: 20px;
+                    background: rgba(216, 216, 216, 0.46841);
+                    border-radius: 5px;
+                }
+            }
+        }
+        .input-free {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 23px;
+            color: #C7C7C7;
+            width: 100%;
+            padding: 20px 25px;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: 1px solid #304FFF;
+            box-sizing: border-box;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 32px;
+        }
+        .dalee {
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            background: #41D481;
+            border-radius: 5px;
+            margin-bottom: 50px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        .span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #787993;
+            width: 100%;
+            display: block;
+            margin-bottom: 33px;
+            box-sizing: border-box;
+            text-align: center;
+            position: relative;
+            &::before {
+                content: "";
+                width: 120px;
+                height: 1px;
+                position: absolute;
+                background: #979797;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+            }
+            &::after {
+                content: "";
+                width: 120px;
+                height: 1px;
+                position: absolute;
+                background: #979797;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+        .h5-link {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E72CA;
+            width: 100%;
+            text-decoration: none;
+        }
+    }
+}

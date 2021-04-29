@@ -1,0 +1,169 @@
+.free_registrasiya {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+        width: 320px;
+        box-sizing: border-box;
+        margin-left: 200px;
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 27px;
+        }
+        .free-email, .free-number {
+            label {
+                width: 100%;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #787993;
+                display: block;
+                margin-bottom: 7px;
+                text-align: start;
+            }
+            input {
+                width: 100%;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 23px;
+                color: #C7C7C7;
+                padding: 20px 30px;
+                background: #FFFFFF;
+                border: 1px solid rgba(151, 151, 151, 0.482592);
+                box-sizing: border-box;
+                border-radius: 5px;
+                margin-bottom: 28px;
+                outline: none;
+            }
+        }
+        .free-number {
+                .first-input {
+                    display: inline;
+                    box-sizing: border-box;
+                    padding: 20px 0;
+                    width: 100px;
+                    text-align: center;
+                }
+                .secont-input {
+                    background: #FFFFFF;
+                    border: 1px solid rgba(151, 151, 151, 0.482592);
+                    width: 200px;
+                    margin-left: 20px;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    display: inline;
+                }
+                h4 {
+                    width: 100%;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #304FFF;
+                    margin-bottom: 30px;
+                    span {
+                        color: #000;
+                    }
+                }
+        }
+        .free-button {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+            text-decoration: none;
+            .h4 {
+                background: #FFFFFF;
+                box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.279127);
+                border-radius: 5px;
+                padding: 20px 35px;
+                display: inline;
+                position: relative;
+                height: 62px;
+                box-sizing: border-box;
+                text-decoration: none;
+                img {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 13px;
+                    height: 23px;
+                    object-fit: cover;
+                }
+            }
+            .span {
+                height: 62px;
+                box-sizing: border-box;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #FFFFFF;
+                background: #41D481;
+                border-radius: 5px;
+                padding: 20px 50px;
+                text-decoration: none;
+            }
+        }
+        .free-ili {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #787993;
+            position: relative;
+            width: 100%;
+            margin-bottom: 26px;
+            text-align: center;
+            &::before {
+                content: "";
+                width: 130px;
+                height: 1px;
+                background: #979797;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+            }
+            &::after {
+                content: "";
+                width: 130px;
+                height: 1px;
+                background: #979797;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+        .h4-link {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E72CA;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}

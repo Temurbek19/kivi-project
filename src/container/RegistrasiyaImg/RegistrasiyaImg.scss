@@ -1,0 +1,17 @@
+.info_registrasiya-right {
+    position: relative;
+    .img-fon {
+        width: 600px;
+        height: 700px;
+        object-fit: cover;
+    }
+    .img-kivi {
+        position: absolute;
+        width: 275px;
+        height: 275px;
+        object-fit: contain;
+        left: 100px;
+        bottom: 150px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,154 @@
+.table {
+    background: rgba(0, 0, 0, 0.0470165);
+    &-top1 {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #FFFFFF;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(151, 151, 151, 0.34);
+        h5 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #414D6A;
+        }
+        p {
+            display: flex;
+            align-items: center;
+            h6 {
+                margin-right: 25px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #304FFF;
+            }
+            .popolnit {
+                img {
+                    width: 151px;
+                    height: 37px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    &-top2 {
+        width: 100%;
+        background: #FFFFFF;
+        padding: 0 15px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        padding-top: 16px;
+        border-bottom: 1px solid rgba(151, 151, 151, 0.600459);
+        &-link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #ACB1BE;
+            text-decoration: none;
+            margin-right: 50px;
+            padding-bottom: 15px;
+            position: relative;
+            &::before {
+                content: "";
+                width: 0;
+                height: 2px;
+                background: #304FFF;
+                position: absolute;
+                transition: all ease 0.5s;
+                bottom: -1.5px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            &:hover, &.active {
+                &::before {
+                    width: 70px;
+                }
+            }
+        }
+    }
+    &-block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        &-item {
+            background: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 10px;
+            &-top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 15px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid rgba(151, 151, 151, 0.246886);
+                .img1-link {
+                    width: 49px;
+                    height: 49px;
+                    object-fit: contain;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 21px;
+                    color: #414D6A;
+                }
+                h5 {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #414D6A;
+                }
+                h6 {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #414D6A;
+                }
+                .img2-link {
+                    width: 129px;
+                    height: 37px;
+                    object-fit: contain;
+                }
+                .img3-link {
+                    width: 184px;
+                    height: 37px;
+                    object-fit: contain;
+                }
+                .img4-link {
+                    width: 35px;
+                    height: 35px;
+                    object-fit: contain;
+                }
+            }
+            &-bottom {
+                display: flex;
+                align-items: center;
+                span {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #414D6A;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}

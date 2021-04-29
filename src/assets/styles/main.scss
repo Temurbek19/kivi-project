@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Thin.otf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Light.otf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Medium.otf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Heavy.otf');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir\ Tinkov\ -\ Gilroy-Black.otf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+};
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

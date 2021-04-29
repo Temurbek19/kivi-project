@@ -1,0 +1,37 @@
+.info_reklama {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D5D5D5;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    .link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: #9B9B9B;
+        position: relative;
+        &::before {
+            content: "";
+            width: 0;
+            height: 2px;
+            background: #4E72CA;
+            position: absolute;
+            bottom: -16.5px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            transition: all ease 0.5s;
+        }
+        &.active, &:hover {
+            color: #4E72CA;
+            &::before {
+                width: 150px;
+            }
+        }
+    }
+    .link2 {
+        margin-left: 150px;
+    }
+}
